@@ -3,33 +3,21 @@ Github 文件加速
 
 Github 文件加速
 #	选择线路	使用方式	举例说明
-1	gh.con.sh	在源网址前加上 https://gh.con.sh/	https://gh.con.sh/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
-3	{hub,cdn}.gitmirror.com	在源网址前加上 https://hub.gitmirror.com/	https://hub.gitmirror.com/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
-4	ghproxy.net && mirror.ghproxy.com	在源网址前加上 https://ghproxy.com/	https://ghproxy.com/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
-5	{fastly,cdn,gcore}.jsdelivr.net	源域名替换为 https://cdn.jsdelivr.net/gh/	https://cdn.jsdelivr.net/gh/vodtv/iptv-sources@gh-pages/txt/cn.txt
-6	{cf}.ghproxy.cc	在源网址前加上 https://ghproxy.com/	https://ghproxy.com/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
+1	gh.con.sh	在源网址前加上 https://gh.con.sh/	例如：https://gh.con.sh/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
+3	{hub,cdn}.gitmirror.com	在源网址前加上 https://hub.gitmirror.com/	例如：https://hub.gitmirror.com/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
+4	ghproxy.net && mirror.ghproxy.com	在源网址前加上 https://ghproxy.com/	例如：https://ghproxy.com/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
+5	{fastly,cdn,gcore}.jsdelivr.net	源域名替换为 https://cdn.jsdelivr.net/gh/	例如：https://cdn.jsdelivr.net/gh/vodtv/iptv-sources@gh-pages/txt/cn.txt
+6	{cf}.ghproxy.cc	在源网址前加上 https://ghproxy.com/	例如：https://ghproxy.com/https://raw.githubusercontent.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
+
 RAW 加速服务
 将原网址
-
 raw.githubusercontent.com
-
 替换为
-
 raw.gitmirror.com
-
-即可，例如：
-
-https://raw.gitmirror.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
-
+即可，例如：https://raw.gitmirror.com/vodtv/iptv-sources/gh-pages/txt/cn.txt
 Gist 加速服务
 将原网址
-
 gist.githubusercontent.com
-
 替换为
-
 gist.gitmirror.com
-
-即可，例如：
-
-https://gist.gitmirror.com/dimitardanailov/6acdd54ab67d5a25c0229b2fe5bbb42b/raw/397f0873922a6aa48895074cc28d7f71c8261b81/create_user.sh
+即可，例如：https://gist.gitmirror.com/dimitardanailov/6acdd54ab67d5a25c0229b2fe5bbb42b/raw/397f0873922a6aa48895074cc28d7f71c8261b81/create_user.sh
